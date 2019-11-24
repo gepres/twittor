@@ -436,3 +436,10 @@ and (-webkit-device-pixel-ratio : 3) {
 .retweet div {
     color: white;
 }
+
+body {
+  overscroll-behavior-y: contain;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
